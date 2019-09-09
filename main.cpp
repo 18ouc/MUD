@@ -201,6 +201,8 @@ int main() {
 				ifNew = 1;
 				//加一个正则表达式。判断是不是数字
 				switch (myCheckpoint) {
+				default:
+					cout << "出现错误！" << endl;
 				case 1:
 					ifEnd = 0;
 					ifEnd = myPlot.init1(mySorcerer, myCheckpoint, ifNew);
@@ -255,8 +257,6 @@ int main() {
 					if (ifEnd == -1) {
 						break;
 					}
-				default:
-					cout << "出现错误！" << endl;
 				}
 			}
 			else if(choice == "3"){

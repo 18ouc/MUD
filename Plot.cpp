@@ -4034,9 +4034,9 @@ int Plot::initFinal(Sorcerer * mySorcerer, int myCheckPoint, bool ifNew) {
 			else {
 				cout << "输入错误！" << endl;
 			}
-			cout << "恭喜你通过所有关卡" << endl;
-			system("pause");
-			system("cls");
 	}
+	cout << "恭喜你通过所有关卡" << endl;
+	system("pause");
+	system("cls");
 	return 1;
 }
