@@ -4,8 +4,7 @@
 using namespace std;
 
 
-class Horcrux
-{
+class Horcrux {
 public:
 	Horcrux(string name = 0, int id = 0);
 	~Horcrux();

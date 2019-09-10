@@ -41,6 +41,7 @@ void Plot::init_new(Sorcerer * mySorcerer) {
 	//File myFile(name + ".txt");
 	ofstream tempFile(name + ".txt");
 	ofstream outFiles("myFiles.txt", ios::out | ios::app);
+	system("pause");
 	system("cls");
 	tempFile << mySorcerer->getDisguiseValue() << " "
 		<< mySorcerer->getForceValue() << " "
@@ -242,7 +243,7 @@ int Plot::init1(Sorcerer * mySorcerer, int myCheckPoint, bool ifNew) {	//第一关
 			system("cls");
 			mySorcerer->showMedicine();
 		}
-		else if (op == "查看道具 ") {
+		else if (op == "查看道具") {
 			system("cls");
 			mySorcerer->showMagicItem();
 		}
@@ -1456,7 +1457,7 @@ int Plot::init3(Sorcerer * mySorcerer, int myCheckPoint, bool ifNew) {
 			system("cls");
 			mySorcerer->showMedicine();
 		}
-		else if (op == "查看道具 ") {
+		else if (op == "查看道具") {
 			system("cls");
 			mySorcerer->showMagicItem();
 		}
@@ -2074,7 +2075,7 @@ int Plot::init4(Sorcerer *mySorcerer, int myCheckPoint, bool ifNew) {
 			system("cls");
 			mySorcerer->showMedicine();
 		}
-		else if (op == "查看道具 ") {
+		else if (op == "查看道具") {
 			system("cls");
 			mySorcerer->showMagicItem();
 		}
@@ -2744,7 +2745,7 @@ int Plot::init5(Sorcerer *mySorcerer, int myCheckPoint, bool ifNew) {
 			system("cls");
 			mySorcerer->showMedicine();
 		}
-		else if (op == "查看道具 ") {
+		else if (op == "查看道具") {
 			system("cls");
 			mySorcerer->showMagicItem();
 		}
@@ -3395,7 +3396,7 @@ int Plot::init6(Sorcerer *mySorcerer, int myCheckPoint, bool ifNew) {
 			system("cls");
 			mySorcerer->showMedicine();
 		}
-		else if (op == "查看道具 ") {
+		else if (op == "查看道具") {
 			system("cls");
 			mySorcerer->showMagicItem();
 		}
@@ -3899,7 +3900,7 @@ int Plot::initFinal(Sorcerer * mySorcerer, int myCheckPoint, bool ifNew) {
 			system("cls");
 			mySorcerer->showMedicine();
 		}
-		else if (op == "查看道具 ") {
+		else if (op == "查看道具") {
 			system("cls");
 			mySorcerer->showMagicItem();
 		}

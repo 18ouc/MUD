@@ -187,11 +187,11 @@ int main() {
 				infile >> medicineNum;
 				for (int i = 0; i < medicineNum; i++) {
 					infile >> tempMedicineName >> tempRecoverValue >> tempMedicinePrice;
-					tempMagicitem.setValue(tempMagicitemName, tempMagicitemId);
+					tempMedicine.setInformation(tempMedicineName, tempRecoverValue, tempMedicinePrice);
 					mySorcerer->addMedicine(tempMedicine);
 				}
 				mySorcerer->setMyCheckPoint(myCheckpoint);	//设置目前在哪个关卡
-				tempMedicine.setInformation(tempMedicineName, tempRecoverValue, tempMedicinePrice);
+				//tempMedicine.setInformation(tempMedicineName, tempRecoverValue, tempMedicinePrice);
 				infile >> myCheckpoint;
 				cout << "人物状态初始化完毕！" << endl;
 				file.close();

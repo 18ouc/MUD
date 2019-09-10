@@ -3,9 +3,7 @@
 #include <string>
 #include "Person.h"
 using namespace std;
-class GoodPerson :
-	public Person
-{
+class GoodPerson : public Person {
 public:
 	GoodPerson(string name = 0, string sentence = 0);
 	~GoodPerson();
